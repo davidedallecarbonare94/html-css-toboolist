@@ -43,7 +43,67 @@ nav {background-color: white;
     margin-left: 75px;
     margin-bottom: 10px;
 }
-#section {
+#selection {
     background-color: white;
     color: lightgray;
+}
+#section {
+    background-color: white;
+    width: 80%;
+    padding-bottom: 30px;
+    margin-top: 1px;
+    margin-left: 10%;
+    border: 1px solid white;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    font-size: 24px;
+}
+
+div.check::before {
+    content: "\2713";
+    color: green;
+    border: solid 1px green;
+    border-radius: 50px;
+}
+div.cross::before {
+    content: "\2718";
+    color: red;
+    border: solid 1px red;
+    border-radius: 50px;
+}
+.editorial {
+    border: solid 1px white;
+    border-radius: 10px;
+    background-color: skyblue;
+    color: white;
+}
+.q1goals {
+    border: solid 1px white;
+    border-radius: 10px;
+    background-color: rgb(157, 135, 235);
+    color: white;
+}
+.recruiting {
+    border: solid 1px white;
+    border-radius: 10px;
+    background-color: rgb(135, 235, 205);
+    color: white;
+}
+.mobile {
+    border: solid 1px white;
+    border-radius: 10px;
+    background-color: rgb(241, 140, 93);
+    color: white;
+}
+.website {
+    border: solid 1px white;
+    border-radius: 10px;
+    background-color: rgb(252, 158, 244);
+    color: white;
+}
+.sales {
+    border: solid 1px white;
+    border-radius: 10px;
+    background-color: rgb(104, 145, 109);
+    color: white;
 }
