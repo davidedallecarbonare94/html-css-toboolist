@@ -71,39 +71,32 @@ div.cross::before {
     border: solid 1px red;
     border-radius: 50px;
 }
-.editorial {
-    border: solid 1px white;
-    border-radius: 10px;
+#editorial {
     background-color: skyblue;
-    color: white;
 }
-.q1goals {
-    border: solid 1px white;
-    border-radius: 10px;
+#q1goals {
     background-color: rgb(157, 135, 235);
-    color: white;
 }
-.recruiting {
-    border: solid 1px white;
-    border-radius: 10px;
+#recruiting {
     background-color: rgb(135, 235, 205);
-    color: white;
 }
-.mobile {
-    border: solid 1px white;
-    border-radius: 10px;
+#mobile {
     background-color: rgb(241, 140, 93);
-    color: white;
 }
-.website {
-    border: solid 1px white;
-    border-radius: 10px;
+#website {
     background-color: rgb(252, 158, 244);
-    color: white;
 }
-.sales {
-    border: solid 1px white;
-    border-radius: 10px;
+#sales {
     background-color: rgb(104, 145, 109);
+}
+.bomb {
+    border: solid 1px white;
+    border-radius: 19px;
     color: white;
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 10px;
+}
+div > h3 {
+    padding-top: 8px;
 }
