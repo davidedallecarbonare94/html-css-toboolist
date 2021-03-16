@@ -62,7 +62,7 @@ nav {background-color: white;
     font-size: 24px;
 }
 
-div.check::before {
+li.check::before {
     content: "\2713";
     color: green;
     border: solid 1px green;
@@ -71,7 +71,7 @@ div.check::before {
     margin-left: 85px;
     font-size: 13px;
 }
-div.cross::before {
+li.cross::before {
     content: "\2718";
     color: red;
     border: solid 1px red;
