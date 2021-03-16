@@ -1,5 +1,17 @@
 * {
     box-sizing: border-box;
-    margin: 0px;
     padding: 0px;
+}
+header {
+    margin-left: 45px;
+    margin-top: 20px;
+
+
+}
+h1 {
+    display: inline-block;
+    position: absolute;
+    top: 4px;
+    left: 114px;
+    font-family: sans-serif;
 }
