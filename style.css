@@ -1,11 +1,12 @@
 * {
     box-sizing: border-box;
-    padding: 0px;
 }
+
+/* testata della pagina */
 header {
     margin-left: 45px;
     margin-top: 20px;
-
+    height: 64px;
 
 }
 h1 {
@@ -14,4 +15,35 @@ h1 {
     top: 4px;
     left: 114px;
     font-family: sans-serif;
+}
+main {
+    background-color: lightgray;
+    width: 90%;
+    padding-top: 24px;
+}
+nav {background-color: white;
+    width: 80%;
+    margin-left: 10%;
+    border: 1px solid white;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.selection-buttons {
+    border: solid 1px lightgray;
+    border-radius: 10px;
+    width: 105px;
+    height: 35px;
+    
+}
+#task {
+    background-color: skyblue;
+    color: white;
+    margin-top: 14px;
+    margin-left: 75px;
+    margin-bottom: 10px;
+}
+#section {
+    background-color: white;
+    color: lightgray;
 }
