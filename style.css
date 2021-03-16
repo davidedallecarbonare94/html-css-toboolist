@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* testata della pagina */
@@ -17,9 +18,10 @@ h1 {
     font-family: sans-serif;
 }
 main {
-    background-color: lightgray;
+    background-color: rgb(243, 243, 243);
     width: 90%;
     padding-top: 24px;
+    padding-bottom: 36px;
 }
 nav {background-color: white;
     width: 80%;
@@ -47,6 +49,7 @@ nav {background-color: white;
     background-color: white;
     color: lightgray;
 }
+/* sezione attività da svolgere */
 #section {
     background-color: white;
     width: 80%;
@@ -64,12 +67,18 @@ div.check::before {
     color: green;
     border: solid 1px green;
     border-radius: 50px;
+    margin: 10px;
+    margin-left: 85px;
+    font-size: 13px;
 }
 div.cross::before {
     content: "\2718";
     color: red;
     border: solid 1px red;
     border-radius: 50px;
+    margin: 10px;
+    margin-left: 85px;
+    font-size: 13px;
 }
 #editorial {
     background-color: skyblue;
@@ -98,5 +107,7 @@ div.cross::before {
     margin-left: 10px;
 }
 div > h3 {
-    padding-top: 8px;
+    margin-left: 75px;
+    margin-top: 30px;
+    margin-bottom: 6px;
 }
